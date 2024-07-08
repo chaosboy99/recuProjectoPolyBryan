@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 512ef0b4ead37fd45aba257d44eba78c
+guid: ab5342242b45b8f46a73ac2f85bd1062
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,160 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pj2Atack_0
+      name: PortalCambioEscena_0
       rect:
         serializedVersion: 2
-        x: 25
-        y: 26
-        width: 165
-        height: 198
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e8de866d665a60448987c789587e75a1
-      internalID: 678535533
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pj2Atack_1
-      rect:
-        serializedVersion: 2
-        x: 361
-        y: 26
-        width: 253
-        height: 171
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b1d3833d755a30847be64fd76ddd8a14
-      internalID: 1919502213
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pj2Atack_2
-      rect:
-        serializedVersion: 2
-        x: 666
-        y: 25
-        width: 253
-        height: 167
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28ab8852509207847a297c835ea8c06a
-      internalID: 1676906561
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pj2Atack_3
-      rect:
-        serializedVersion: 2
-        x: 945
-        y: 26
-        width: 142
-        height: 170
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bac08cfa62d81094d8b4a35eb190fb54
-      internalID: 380340483
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pj2Atack_4
-      rect:
-        serializedVersion: 2
-        x: 1250
-        y: 20
-        width: 144
-        height: 178
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 76f3c317741c12a41b404611bae19692
-      internalID: 1278310514
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pj2Atack_5
-      rect:
-        serializedVersion: 2
-        x: 1583
-        y: 22
-        width: 247
-        height: 176
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 43d6d9b0a76d70d4c958a47f8a36a7ea
-      internalID: 84032442
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pj2Atack_6
-      rect:
-        serializedVersion: 2
-        x: 1888
-        y: 22
-        width: 185
-        height: 175
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 974a7e30252c57f40b8f1cdce8889a76
-      internalID: 556726641
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pj2Atack_7
-      rect:
-        serializedVersion: 2
-        x: 2192
+        x: 37
         y: 27
-        width: 132
-        height: 171
+        width: 143
+        height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,8 +124,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed5ec6fc4d13171459ab7a45c10412cd
-      internalID: 1242348399
+      spriteID: 0734b47dac91dcd4a901c2082e40c51c
+      internalID: 2058946154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalCambioEscena_1
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 27
+        width: 145
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8347130d5224be4c885915c2b54fb98
+      internalID: 1874435637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalCambioEscena_2
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 27
+        width: 140
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f76b3590ab46e74f9383eed42885be1
+      internalID: -582351711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalCambioEscena_3
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 27
+        width: 143
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d3c5d9240639341b19190a2c836bb4
+      internalID: 76979393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalCambioEscena_5
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 27
+        width: 154
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0dc7f201b693a940a90a3ea6d75ced0
+      internalID: -834434455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalCambioEscena_6
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 27
+        width: 154
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2516b966a1e74de4880620aaeed9ed76
+      internalID: 1286461814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PortalCambioEscena_7
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 27
+        width: 149
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea2d23328b20004d950f99d85699d3a
+      internalID: 835599883
       vertices: []
       indices: 
       edges: []
@@ -288,14 +267,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Pj2Atack_0: 678535533
-      Pj2Atack_1: 1919502213
-      Pj2Atack_2: 1676906561
-      Pj2Atack_3: 380340483
-      Pj2Atack_4: 1278310514
-      Pj2Atack_5: 84032442
-      Pj2Atack_6: 556726641
-      Pj2Atack_7: 1242348399
+      PortalCambioEscena_0: 2058946154
+      PortalCambioEscena_1: 1874435637
+      PortalCambioEscena_10: -1066411658
+      PortalCambioEscena_2: -582351711
+      PortalCambioEscena_3: 76979393
+      PortalCambioEscena_4: 685097360
+      PortalCambioEscena_5: -834434455
+      PortalCambioEscena_6: 1286461814
+      PortalCambioEscena_7: 835599883
+      PortalCambioEscena_8: 523303719
+      PortalCambioEscena_9: 374436267
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
