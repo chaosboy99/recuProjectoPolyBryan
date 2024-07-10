@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6851348517454435286}
   - component: {fileID: 394864576351130169}
   - component: {fileID: 1094032093784629684}
-  - component: {fileID: 4717538115622786919}
+  - component: {fileID: 6902032342436585778}
   m_Layer: 0
   m_Name: PortalCambioEscena_0
   m_TagString: Untagged
@@ -153,7 +153,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.43, y: 2.75}
   m_EdgeRadius: 0
---- !u!114 &4717538115622786919
+--- !u!114 &6902032342436585778
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
