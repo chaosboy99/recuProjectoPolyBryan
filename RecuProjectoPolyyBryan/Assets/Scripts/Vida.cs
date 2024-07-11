@@ -9,10 +9,10 @@ public class Vida : MonoBehaviour
     [SerializeField] private Image ImgCorazon;
     [SerializeField] RectTransform PosicionPrimerCorazon;
     [SerializeField] private Canvas MyCanvas;
-    [SerializeField] private int OffSet;
+    private int OffSet = 80;
 
     private List<Image> corazones;
-    public int CantidadCorazones;
+    public int CantidadCorazones = 3;
     // Start is called before the first frame update
     void Start()
     {
