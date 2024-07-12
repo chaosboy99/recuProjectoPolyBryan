@@ -5,7 +5,7 @@ using UnityEngine;
 public class Enemigo : MonoBehaviour
 {
     [SerializeField] private float vida;
-
+    public Vida loseHearts;
     private Animator animator;
 
     private void Start()
@@ -22,6 +22,14 @@ public class Enemigo : MonoBehaviour
             muerte();
         }
     }
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Pj"))
+        {
+            loseHearts.PerderCorazones();
+        }
+    }
+    
     private void muerte()
     {
         animator.SetBool("Muerte", true);
