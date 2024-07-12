@@ -2868,7 +2868,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Idle_0 (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -3035215209698248081, guid: b0919d741032852498e4c4a486e00063, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
