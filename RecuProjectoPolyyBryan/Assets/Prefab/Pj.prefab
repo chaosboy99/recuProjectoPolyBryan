@@ -1057,7 +1057,7 @@ MonoBehaviour:
   Xinicial: 0
   Yinicial: 0
   Speed: 10
-  Jump: 6
+  Jump: 7
   Sprite: {fileID: 3446458206895925914}
   Animator: {fileID: 6514689766041773118}
 --- !u!114 &6671167753535232769
