@@ -881,6 +881,7 @@ GameObject:
   - component: {fileID: 7606429150068979509}
   - component: {fileID: 8602745879468828170}
   - component: {fileID: 6671167753535232769}
+  - component: {fileID: 9216724219828623738}
   m_Layer: 0
   m_Name: Pj
   m_TagString: Pj
@@ -903,6 +904,7 @@ Transform:
   m_Children:
   - {fileID: 3305817705949479710}
   - {fileID: 232444616935425085}
+  - {fileID: 4381721356422017128}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3446458206895925914
@@ -968,8 +970,8 @@ Rigidbody2D:
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
+  m_UseAutoMass: 1
+  m_Mass: 1.1900653
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -1073,8 +1075,22 @@ MonoBehaviour:
   ImgCorazon: {fileID: 6115462632772396605}
   PosicionPrimerCorazon: {fileID: 4223447422356352374}
   MyCanvas: {fileID: 726895161406614793}
-  OffSet: 80
   CantidadCorazones: 3
+--- !u!114 &9216724219828623738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4732616377440657976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c108fe37269e884f890100aaa5111f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ControlGolpe: {fileID: 4381721356422017128}
+  RadioGolpe: 0.5
+  "da\xF1oGolpe": 1
 --- !u!1 &5002603795135677178
 GameObject:
   m_ObjectHideFlags: 0
@@ -1666,3 +1682,34 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &7265968766140520184
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4381721356422017128}
+  m_Layer: 0
+  m_Name: ControladorAtaque
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4381721356422017128
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7265968766140520184}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.688, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2063800075772587789}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
