@@ -243,7 +243,7 @@ MonoBehaviour:
   Sprite: {fileID: 8846094293485745979}
   pointA: {fileID: 0}
   pointB: {fileID: 0}
-  speed: 0
+  speed: 5
 --- !u!114 &8777221445388088795
 MonoBehaviour:
   m_ObjectHideFlags: 0
