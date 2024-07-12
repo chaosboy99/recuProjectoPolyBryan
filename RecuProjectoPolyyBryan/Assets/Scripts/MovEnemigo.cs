@@ -4,36 +4,42 @@ using UnityEngine;
 
 public class MovEnemigo : MonoBehaviour
 {
-    [SerializeField] private float velocidad;
-    [SerializeField] private Transform controladorSuelo;
-    [SerializeField] private float distancia;
-    [SerializeField] private bool movDerecha;
+    public SpriteRenderer Sprite;
+    public GameObject pointA;
+    public GameObject pointB;
     private Rigidbody2D rb;
+    private Animator anim;
+    private Transform CurrentPoint;
+    public float speed;
 
-    private void Start()
+    void Start ()
     {
-        rb = GetComponent<Rigidbody2D>();
+        rb  = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+        CurrentPoint = pointB.transform;
     }
-    private void FixedUpdate()
+    void Update ()
     {
-        RaycastHit2D infoSuelo = Physics2D.Raycast(controladorSuelo.position, Vector2.down, distancia);
-        rb.velocity = new Vector2(velocidad, rb.velocity.y);
-        if (infoSuelo == false)
+        Vector2 point = CurrentPoint.position - transform.position;
+        if(CurrentPoint == pointA.transform)
         {
-            Girar();
+            rb.velocity = new Vector2(speed, 0); 
+        }
+        else
+        {
+            rb.velocity = new Vector2(-speed, 0);
+        }
+        if(Vector2. Distance(transform.position, CurrentPoint.position) < 0.5f && CurrentPoint == pointB.transform)
+        {
+            CurrentPoint = pointA.transform;
+            Sprite.flipX = false;
+        }
+        if(Vector2. Distance(transform.position, CurrentPoint.position) < 0.5f && CurrentPoint == pointA.transform)
+        {
+            Sprite.flipX = true;
+            CurrentPoint = pointB.transform;
         }
     }
 
-    private void Girar()
-    {
-        movDerecha = false;
-        transform.eulerAngles = new Vector3(0, transform.eulerAngles.y + 180, 0);
-        velocidad *= -1;
-    }
-
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawLine(controladorSuelo.transform.position, controladorSuelo.transform.position + Vector3.down * distancia);
-    }
+   
 }

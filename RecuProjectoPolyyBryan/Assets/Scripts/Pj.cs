@@ -6,7 +6,7 @@ public class Pj : MonoBehaviour
 {
     [SerializeField] private float Xinicial, Yinicial;
     [SerializeField] private float Speed, Jump;
-    [SerializeField] private SpriteRenderer Sprite;
+    public SpriteRenderer Sprite;
     [SerializeField] private Animator Animator;
 
     private bool atacando = false;

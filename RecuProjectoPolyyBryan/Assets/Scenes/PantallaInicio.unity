@@ -134,8 +134,8 @@ GameObject:
   - component: {fileID: 12019086}
   - component: {fileID: 12019088}
   - component: {fileID: 12019087}
-  - component: {fileID: 12019089}
   - component: {fileID: 12019090}
+  - component: {fileID: 12019091}
   m_Layer: 0
   m_Name: Tilemap
   m_TagString: Untagged
@@ -1003,8 +1003,20 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!61 &12019089
-BoxCollider2D:
+--- !u!114 &12019090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12019085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ed0569e9a4aead419bbfd5f6e25c77b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!19719996 &12019091
+TilemapCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1035,31 +1047,10 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -4.493002}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 22, y: 3.0139956}
-  m_EdgeRadius: 0
---- !u!114 &12019090
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 12019085}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ed0569e9a4aead419bbfd5f6e25c77b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0
+  m_UseDelaunayMesh: 0
 --- !u!1 &18455418
 GameObject:
   m_ObjectHideFlags: 0

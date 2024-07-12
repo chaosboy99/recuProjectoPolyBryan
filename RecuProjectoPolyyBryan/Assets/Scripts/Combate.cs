@@ -6,7 +6,7 @@ public class Combate : MonoBehaviour
 {
     [SerializeField] private Transform ControlGolpe;
     [SerializeField] private float RadioGolpe;
-    [SerializeField] private float dañoGolpe;
+    [SerializeField] private float daÃ±oGolpe;
 
     void Update()
     {
@@ -24,7 +24,7 @@ public class Combate : MonoBehaviour
         {
             if (GolpeColision.CompareTag("Enemigo"))
             {
-                GolpeColision.transform.GetComponent<Enemigo>().RecibirDaño(dañoGolpe);
+                GolpeColision.transform.GetComponent<Enemigo>().RecibirDaÃ±o(daÃ±oGolpe);
             }
         }
     }
