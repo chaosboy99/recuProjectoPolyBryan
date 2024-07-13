@@ -76,8 +76,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1807728181
-  m_SortingLayer: 3
+  m_SortingLayerID: 180057081
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -333162024, guid: 0f8a169241d3c674e892f191e39f7c78, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -213,7 +213,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c83a78f731c855540be1decea7b02016, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida: 3
+  vida: 1
 --- !u!114 &8265312801657017126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -229,7 +229,7 @@ MonoBehaviour:
   Sprite: {fileID: 2164005598162854623}
   pointA: {fileID: 0}
   pointB: {fileID: 0}
-  speed: 5
+  speed: 4
 --- !u!50 &-6179978202882977152
 Rigidbody2D:
   serializedVersion: 4
@@ -241,7 +241,7 @@ Rigidbody2D:
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
+  m_UseAutoMass: 1
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
@@ -255,5 +255,5 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 1
+  m_CollisionDetection: 0
   m_Constraints: 4

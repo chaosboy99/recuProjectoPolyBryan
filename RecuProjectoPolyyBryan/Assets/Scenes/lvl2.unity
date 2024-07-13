@@ -347,6 +347,18 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8265312801657017126, guid: 69916106066a2134e8d5a5675cfdc49e, type: 3}
+      propertyPath: speed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265312801657017126, guid: 69916106066a2134e8d5a5675cfdc49e, type: 3}
+      propertyPath: pointA
+      value: 
+      objectReference: {fileID: 1799837101}
+    - target: {fileID: 8265312801657017126, guid: 69916106066a2134e8d5a5675cfdc49e, type: 3}
+      propertyPath: pointB
+      value: 
+      objectReference: {fileID: 313984909}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -408,6 +420,14 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8265312801657017126, guid: 69916106066a2134e8d5a5675cfdc49e, type: 3}
+      propertyPath: pointA
+      value: 
+      objectReference: {fileID: 1001236036}
+    - target: {fileID: 8265312801657017126, guid: 69916106066a2134e8d5a5675cfdc49e, type: 3}
+      propertyPath: pointB
+      value: 
+      objectReference: {fileID: 743442988}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2772,7 +2792,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 240438612084303597, guid: 0cbc129036dd5024ead76ee1b023e15b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.1011264
+      value: -2.22
       objectReference: {fileID: 0}
     - target: {fileID: 240438612084303597, guid: 0cbc129036dd5024ead76ee1b023e15b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2806,6 +2826,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 788975488465123481, guid: 0cbc129036dd5024ead76ee1b023e15b, type: 3}
+      propertyPath: pointA
+      value: 
+      objectReference: {fileID: 688860735}
+    - target: {fileID: 788975488465123481, guid: 0cbc129036dd5024ead76ee1b023e15b, type: 3}
+      propertyPath: pointB
+      value: 
+      objectReference: {fileID: 168449887}
     - target: {fileID: 3918237794256739594, guid: 0cbc129036dd5024ead76ee1b023e15b, type: 3}
       propertyPath: m_Name
       value: Mooshroom (2)
@@ -3150,13 +3178,28 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2297702473550967247, guid: b5d227ba1437d854f8d8644dff273f7b, type: 3}
+      propertyPath: m_GravityScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4732616377440657976, guid: b5d227ba1437d854f8d8644dff273f7b, type: 3}
       propertyPath: m_Name
       value: Pj
       objectReference: {fileID: 0}
+    - target: {fileID: 6671167753535232769, guid: b5d227ba1437d854f8d8644dff273f7b, type: 3}
+      propertyPath: CantidadCorazones
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8602745879468828170, guid: b5d227ba1437d854f8d8644dff273f7b, type: 3}
+      propertyPath: Speed
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 2063800075772587789, guid: b5d227ba1437d854f8d8644dff273f7b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1168152951}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5d227ba1437d854f8d8644dff273f7b, type: 3}
 --- !u!4 &631213072 stripped
@@ -4123,6 +4166,134 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1168152950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1168152951}
+  - component: {fileID: 1168152952}
+  m_Layer: 0
+  m_Name: Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1168152951
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168152950}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 8.490458, y: 2.0760365, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 631213072}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1168152952
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168152950}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 3c883ab098ca90c4ba6e2829a0493093, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.3
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1224243164
 GameObject:
   m_ObjectHideFlags: 0
@@ -4779,6 +4950,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 788975488465123481, guid: 0cbc129036dd5024ead76ee1b023e15b, type: 3}
+      propertyPath: pointA
+      value: 
+      objectReference: {fileID: 1724555257}
+    - target: {fileID: 788975488465123481, guid: 0cbc129036dd5024ead76ee1b023e15b, type: 3}
+      propertyPath: pointB
+      value: 
+      objectReference: {fileID: 1050840272}
     - target: {fileID: 3918237794256739594, guid: 0cbc129036dd5024ead76ee1b023e15b, type: 3}
       propertyPath: m_Name
       value: Mooshroom (1)
@@ -5131,7 +5310,7 @@ Transform:
   m_GameObject: {fileID: 1658790773}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.2744203, y: -1.87945, z: -10}
+  m_LocalPosition: {x: -3.060193, y: -1.87936, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5862,6 +6041,14 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8265312801657017126, guid: 69916106066a2134e8d5a5675cfdc49e, type: 3}
+      propertyPath: pointA
+      value: 
+      objectReference: {fileID: 771035127}
+    - target: {fileID: 8265312801657017126, guid: 69916106066a2134e8d5a5675cfdc49e, type: 3}
+      propertyPath: pointB
+      value: 
+      objectReference: {fileID: 912531932}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5965,7 +6152,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 240438612084303597, guid: 0cbc129036dd5024ead76ee1b023e15b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.99
+      value: -2.23
       objectReference: {fileID: 0}
     - target: {fileID: 240438612084303597, guid: 0cbc129036dd5024ead76ee1b023e15b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5999,9 +6186,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 788975488465123481, guid: 0cbc129036dd5024ead76ee1b023e15b, type: 3}
+      propertyPath: pointA
+      value: 
+      objectReference: {fileID: 509050120}
+    - target: {fileID: 788975488465123481, guid: 0cbc129036dd5024ead76ee1b023e15b, type: 3}
+      propertyPath: pointB
+      value: 
+      objectReference: {fileID: 876193310}
     - target: {fileID: 3918237794256739594, guid: 0cbc129036dd5024ead76ee1b023e15b, type: 3}
       propertyPath: m_Name
       value: Mooshroom
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846094293485745979, guid: 0cbc129036dd5024ead76ee1b023e15b, type: 3}
+      propertyPath: m_FlipX
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6064,6 +6263,18 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8265312801657017126, guid: 69916106066a2134e8d5a5675cfdc49e, type: 3}
+      propertyPath: speed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265312801657017126, guid: 69916106066a2134e8d5a5675cfdc49e, type: 3}
+      propertyPath: pointA
+      value: 
+      objectReference: {fileID: 1659943259}
+    - target: {fileID: 8265312801657017126, guid: 69916106066a2134e8d5a5675cfdc49e, type: 3}
+      propertyPath: pointB
+      value: 
+      objectReference: {fileID: 1323163203}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

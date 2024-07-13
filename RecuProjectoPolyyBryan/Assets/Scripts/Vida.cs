@@ -32,14 +32,21 @@ public class Vida : MonoBehaviour
         }
         
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
 
-    // Update is called once per frame
+        if (collision.CompareTag("Enemigo"))
+
+        {
+            PerderCorazones();
+        }
+    }
     public void PerderCorazones()
     {
         if (corazones.Count > 0)
         {
             Image UltimoCorazon = corazones[corazones.Count - 1];
-            corazones.Remove(UltimoCorazon);
+            corazones.RemoveAt(corazones.Count - 1);
             Destroy(UltimoCorazon.gameObject);
             if (corazones.Count == 0)
             {
@@ -52,14 +59,5 @@ public class Vida : MonoBehaviour
     {
         SceneManager.LoadScene("GameOver");
     }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        
-        if (collision.CompareTag("Enemigo"))
-
-        {
-            Debug.Log("perder");
-            PerderCorazones();
-        }
-    }
+    
 }

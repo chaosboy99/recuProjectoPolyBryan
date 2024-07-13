@@ -55,6 +55,7 @@ public class Pj : MonoBehaviour
         {
             rb2D.velocity = new Vector2(rb2D.velocity.x, Jump);
             Animator.SetBool("Correr", false);
+            
         }
         if (Suelo.EsSuelo == false)
         {
